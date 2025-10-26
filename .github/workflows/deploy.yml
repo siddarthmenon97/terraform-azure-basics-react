@@ -32,3 +32,5 @@ jobs:
           action: "upload"
           app_location: "/"
           output_location: "build"
+          env: |
+            NODE_VERSION=20.19.0
