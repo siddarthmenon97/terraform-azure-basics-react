@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 20
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -39,3 +39,4 @@ jobs:
           app_location: "/"
           api_location: ""
           output_location: "dist"
+          skip_app_build: true 
